@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian">
+<Collection>
+<DataSet timestep="5.004564627183246718e-03" group="" part="0" file="fluid-s0004-b0000.vtu"/>
+<DataSet timestep="5.004564627183246718e-03" group="" part="0" file="fluid-s0004-b0001.vtu"/>
+</Collection>
+</VTKFile>
