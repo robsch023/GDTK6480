@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian">
+<Collection>
+<DataSet timestep="0.000000000000000000e+00" group="" part="0" file="fluid-s0000-b0000.vtu"/>
+<DataSet timestep="5.002866015106095511e-05" group="" part="0" file="fluid-s0001-b0000.vtu"/>
+<DataSet timestep="1.000515733172796046e-04" group="" part="0" file="fluid-s0002-b0000.vtu"/>
+<DataSet timestep="1.500226875962943902e-04" group="" part="0" file="fluid-s0003-b0000.vtu"/>
+<DataSet timestep="2.000484553317453235e-04" group="" part="0" file="fluid-s0004-b0000.vtu"/>
+<DataSet timestep="2.500195499564033131e-04" group="" part="0" file="fluid-s0005-b0000.vtu"/>
+<DataSet timestep="3.000453175519448949e-04" group="" part="0" file="fluid-s0006-b0000.vtu"/>
+<DataSet timestep="3.500164121774498090e-04" group="" part="0" file="fluid-s0007-b0000.vtu"/>
+<DataSet timestep="4.000421797730045097e-04" group="" part="0" file="fluid-s0008-b0000.vtu"/>
+<DataSet timestep="4.500132743985094238e-04" group="" part="0" file="fluid-s0009-b0000.vtu"/>
+<DataSet timestep="5.000390419940641245e-04" group="" part="0" file="fluid-s0010-b0000.vtu"/>
+<DataSet timestep="5.500101366195690386e-04" group="" part="0" file="fluid-s0011-b0000.vtu"/>
+<DataSet timestep="6.000359042151237393e-04" group="" part="0" file="fluid-s0012-b0000.vtu"/>
+<DataSet timestep="6.500069988406286534e-04" group="" part="0" file="fluid-s0013-b0000.vtu"/>
+<DataSet timestep="7.000327664361833541e-04" group="" part="0" file="fluid-s0014-b0000.vtu"/>
+<DataSet timestep="7.500038610616882682e-04" group="" part="0" file="fluid-s0015-b0000.vtu"/>
+<DataSet timestep="8.000296286572429688e-04" group="" part="0" file="fluid-s0016-b0000.vtu"/>
+<DataSet timestep="8.500007232827478830e-04" group="" part="0" file="fluid-s0017-b0000.vtu"/>
+<DataSet timestep="9.000264908783025836e-04" group="" part="0" file="fluid-s0018-b0000.vtu"/>
+<DataSet timestep="9.500522584738572843e-04" group="" part="0" file="fluid-s0019-b0000.vtu"/>
+<DataSet timestep="1.000023353099315686e-03" group="" part="0" file="fluid-s0020-b0000.vtu"/>
+</Collection>
+</VTKFile>

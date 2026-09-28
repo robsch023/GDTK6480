@@ -8,11 +8,11 @@ config.dimensions = 2
 config.axisymmetric = true
 
 -- gas model and flow conditions
-gm = setGasModel('ideal-Argon.gas')
+nsp, nmodes, gm = setGasModel('ideal-Argon.gas')
 
 p_inf = 10e3		-- Pa
 T_inf = 300			-- K
-M_inf = 6.0			-- m/s
+M_inf = 6.0			
 
 -- find velocity from gas conditions and sound speed
 gs_inf = GasState:new{gm}
@@ -37,7 +37,7 @@ p_in_90   = Vector3:new{x=0.0,   y=r_in}
 
 -- outer arc points
 p_out_180 = Vector3:new{x=centre1.x - r_out, y=centre1.y}
-p_out_90  = Vector3:new{x=centre1.x,         y=centre1.y + r_out}
+p_out_90 = Vector3:new{x=0.0, y=math.sqrt(r_out^2 - centre1.x^2)} 
 
 south = Arc:new{p0=p_in_180,  p1=p_in_90,  centre=centre0}
 north = Arc:new{p0=p_out_180, p1=p_out_90, centre=centre1}
@@ -46,7 +46,7 @@ east  = Line:new{p0=p_in_90,  p1=p_out_90}
 
 patch0 = CoonsPatch:new{north=north, east=east, south=south, west=west}
 
-grid0 = StructuredGrid:new{psurface=patch0, niv=21, njv=11}
+grid0 = StructuredGrid:new{psurface=patch0, niv=61, njv=41}
 
 registerFluidGrid{
    grid = grid0,
@@ -67,8 +67,8 @@ bcDict = {
 makeFluidBlocks(bcDict, flowDict)
 
 -- simulations settings
-config.max_time = 5.0e-3 --s
-config.max_step = 3000
+config.max_time = 1.0e-3 --s
+config.max_step = 100000
 config.cfl_value = 0.5
-config.dt_plot = 1.5e-3
-config.dt_init = 1.0e-6
+config.dt_plot = 5.0e-5
+config.dt_init = 1.0e-7
