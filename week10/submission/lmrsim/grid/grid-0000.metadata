@@ -1,0 +1,33 @@
+{
+  "tag": "Grid-0",
+  "fsTag": "initial",
+  "type": "structured_grid",
+  "fieldType": "fluid",
+  "active": true,
+  "omegaz": 0,
+  "dimensions": 2,
+  "niv": 201,
+  "njv": 41,
+  "nkv": 1,
+  "nic": 200,
+  "njc": 40,
+  "nkc": 1,
+  "p0": {"x":-7.620000000000000384e-02, "y":0.000000000000000000e+00, "z":0.000000000000000000e+00},
+  "p1": {"x":7.620000000000000384e-02, "y":0.000000000000000000e+00, "z":0.000000000000000000e+00},
+  "p2": {"x":7.620000000000000384e-02, "y":3.871390524051000065e-02, "z":0.000000000000000000e+00},
+  "p3": {"x":-7.620000000000000384e-02, "y":4.052569999999999784e-02, "z":0.000000000000000000e+00},
+  "bcTags": {
+    "south": "wall",
+    "west": "inflow",
+    "east": "outflow",
+    "north": "wall",
+    "dummy_entry_without_trailing_comma": "xxxx"
+  },
+  "ssTag": "",
+  "solidModelTag": "",
+  "solidBCTags": {
+    "dummy_entry_without_trailing_comma": "xxxx"
+  },
+  "gridArrayId": -1
+}
+
