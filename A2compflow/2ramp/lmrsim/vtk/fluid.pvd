@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian">
+<Collection>
+<DataSet timestep="0.000000000000000000e+00" group="" part="0" file="fluid-s0000-b0000.vtu"/>
+<DataSet timestep="0.000000000000000000e+00" group="" part="0" file="fluid-s0000-b0001.vtu"/>
+<DataSet timestep="0.000000000000000000e+00" group="" part="0" file="fluid-s0000-b0002.vtu"/>
+<DataSet timestep="5.003319158663052310e-04" group="" part="0" file="fluid-s0001-b0000.vtu"/>
+<DataSet timestep="5.003319158663052310e-04" group="" part="0" file="fluid-s0001-b0001.vtu"/>
+<DataSet timestep="5.003319158663052310e-04" group="" part="0" file="fluid-s0001-b0002.vtu"/>
+<DataSet timestep="1.000375414609928166e-03" group="" part="0" file="fluid-s0002-b0000.vtu"/>
+<DataSet timestep="1.000375414609928166e-03" group="" part="0" file="fluid-s0002-b0001.vtu"/>
+<DataSet timestep="1.000375414609928166e-03" group="" part="0" file="fluid-s0002-b0002.vtu"/>
+<DataSet timestep="1.500100821515100175e-03" group="" part="0" file="fluid-s0003-b0000.vtu"/>
+<DataSet timestep="1.500100821515100175e-03" group="" part="0" file="fluid-s0003-b0001.vtu"/>
+<DataSet timestep="1.500100821515100175e-03" group="" part="0" file="fluid-s0003-b0002.vtu"/>
+<DataSet timestep="2.000543159615201724e-03" group="" part="0" file="fluid-s0004-b0000.vtu"/>
+<DataSet timestep="2.000543159615201724e-03" group="" part="0" file="fluid-s0004-b0001.vtu"/>
+<DataSet timestep="2.000543159615201724e-03" group="" part="0" file="fluid-s0004-b0002.vtu"/>
+<DataSet timestep="2.500077359254433348e-03" group="" part="0" file="fluid-s0005-b0000.vtu"/>
+<DataSet timestep="2.500077359254433348e-03" group="" part="0" file="fluid-s0005-b0001.vtu"/>
+<DataSet timestep="2.500077359254433348e-03" group="" part="0" file="fluid-s0005-b0002.vtu"/>
+<DataSet timestep="3.000501219431672955e-03" group="" part="0" file="fluid-s0006-b0000.vtu"/>
+<DataSet timestep="3.000501219431672955e-03" group="" part="0" file="fluid-s0006-b0001.vtu"/>
+<DataSet timestep="3.000501219431672955e-03" group="" part="0" file="fluid-s0006-b0002.vtu"/>
+<DataSet timestep="3.500022478746802387e-03" group="" part="0" file="fluid-s0007-b0000.vtu"/>
+<DataSet timestep="3.500022478746802387e-03" group="" part="0" file="fluid-s0007-b0001.vtu"/>
+<DataSet timestep="3.500022478746802387e-03" group="" part="0" file="fluid-s0007-b0002.vtu"/>
+<DataSet timestep="4.000448433775106311e-03" group="" part="0" file="fluid-s0008-b0000.vtu"/>
+<DataSet timestep="4.000448433775106311e-03" group="" part="0" file="fluid-s0008-b0001.vtu"/>
+<DataSet timestep="4.000448433775106311e-03" group="" part="0" file="fluid-s0008-b0002.vtu"/>
+<DataSet timestep="4.500863325015299309e-03" group="" part="0" file="fluid-s0009-b0000.vtu"/>
+<DataSet timestep="4.500863325015299309e-03" group="" part="0" file="fluid-s0009-b0001.vtu"/>
+<DataSet timestep="4.500863325015299309e-03" group="" part="0" file="fluid-s0009-b0002.vtu"/>
+<DataSet timestep="5.000396794501675221e-03" group="" part="0" file="fluid-s0010-b0000.vtu"/>
+<DataSet timestep="5.000396794501675221e-03" group="" part="0" file="fluid-s0010-b0001.vtu"/>
+<DataSet timestep="5.000396794501675221e-03" group="" part="0" file="fluid-s0010-b0002.vtu"/>
+<DataSet timestep="5.500801759637670083e-03" group="" part="0" file="fluid-s0011-b0000.vtu"/>
+<DataSet timestep="5.500801759637670083e-03" group="" part="0" file="fluid-s0011-b0001.vtu"/>
+<DataSet timestep="5.500801759637670083e-03" group="" part="0" file="fluid-s0011-b0002.vtu"/>
+<DataSet timestep="6.000327089545719542e-03" group="" part="0" file="fluid-s0012-b0000.vtu"/>
+<DataSet timestep="6.000327089545719542e-03" group="" part="0" file="fluid-s0012-b0001.vtu"/>
+<DataSet timestep="6.000327089545719542e-03" group="" part="0" file="fluid-s0012-b0002.vtu"/>
+</Collection>
+</VTKFile>
